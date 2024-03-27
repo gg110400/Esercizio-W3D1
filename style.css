@@ -1,0 +1,113 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f5f4f8;
+  overflow-x: hidden;
+}
+
+/*CSS SEZIONE HEADER*/
+
+.left {
+    display:flex;
+    gap:15px;
+}
+
+.notifications {
+    background-color:#e3e2e4 ;
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.up {
+    bottom:8px;
+}
+
+.dropdown-menu-left {
+    position:absolute;
+    right: auto !important;
+    left: 0 !important;
+}
+
+.violet-div {
+    background-color:#7550FE ;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    position:relative;
+    left:50px;
+    top:3px;
+}
+
+.green-div {
+    background-color: #1ACB98;
+    width:12px;
+    height:12px;
+    border-radius: 50%;
+    position:relative;
+   bottom:16px;
+   right:26px;
+}
+
+.green-div2 {
+    background-color: #1ACB98;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    position:relative;
+    right:60px;
+    top:29px;
+}
+
+
+/*CSS SEZIONE HERO*/
+
+.bg-color {
+  background-color: #7550fe;
+  height: 500px;
+}
+
+#btn-color {
+  background-color: #1acb98;
+}
+
+
+/*CSS SEZIONE ICONCINE*/
+
+.icon {
+    background-color:#FFEEDA ;
+    color:#C2813E;
+    padding:20px;
+    border-radius:50%;
+}
+
+/*CSS CAROSELLO*/
+
+.carousel-control-prev,
+    .carousel-control-next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgb(170, 170, 170);
+        border-radius: 50%;
+        z-index: 1000; /* Assicura che i pulsanti siano sovrapposti al carousel */ 
+        width:40px;
+        height:40px;
+}
+
+
+.carousel-control-prev {
+    left:-80px;
+}
+
+.carousel-control-next {
+    right:-60px;
+}
+
+.fa-bookmark {
+    cursor: pointer;
+}
+
