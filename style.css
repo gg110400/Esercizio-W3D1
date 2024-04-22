@@ -111,3 +111,33 @@ body {
     cursor: pointer;
 }
 
+
+
+.card-shadow {
+    box-shadow: 10px 5px 10px  rgba(0, 0, 0, 0.3); /* Definisce l'ombra */
+    transition: box-shadow 0.3s ease; /* Applica una transizione all'ombra */
+  }
+
+.card {
+    transition: scale 0.3s ease-in-out;
+}
+  
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+.margin {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+    width:100%;
+    margin-top:24px;
+    padding-left:170px;
+    background-color: white; }
+
+.round-icon {
+    padding:20px;
+    border-radius:50%;
+    background-color:#FEEDD8 ;
+    color:#C18137;
+}
+
